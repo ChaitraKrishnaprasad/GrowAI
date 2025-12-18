@@ -36,5 +36,11 @@ pipeline {
       }
     }
 
+    stage('release ') {
+      steps {
+        echo 'release success'
+      }
+    }
+
   }
 }
